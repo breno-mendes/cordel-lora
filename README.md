@@ -1,6 +1,6 @@
 # Cordel Flux Lora
 
-The LoRA Cordel files (lora.safetensor) as well as the configuration file (config.yaml) can be found in the [HuggingFace repository](https://huggingface.co/brenomendes/cordel-flux-lora). You can download the simpler LoRA trained on parameter lora rank 16, which produces results closer to the Cordel style, using the lora.safetensors file. If you are looking for a model capable of generating more complex images resembling the Cordel style, opt for the model found within the compressed file lora_2.tar.
+The LoRA Cordel files (lora.safetensor) as well as the configuration file (config.yaml) can be found in the [HuggingFace repository](https://huggingface.co/brenomendes/cordel-flux-lora). You can download the simpler LoRA trained on parameter lora rank 16, which produces results closer to the Cordel style, using the lora.safetensors file. If you are looking for a model capable of generating more complex images resembling the Cordel style, opt for the model trained with parameter lora rank set on 32 found within the compressed file lora_2.tar.
 
 The models can be used on online platforms like Replicate and HuggingFace. If you wish to run the LoRA Cordel locally, make sure to download the base model [Flux.1 dev](https://huggingface.co/black-forest-labs/FLUX.1-dev/tree/main) from the Black Forest Labs repository.
 
